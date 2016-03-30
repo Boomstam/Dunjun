@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		D41721CD1C8503EA007D0AB9 /* Dunjun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dunjun; sourceTree = BUILT_PRODUCTS_DIR; };
-		D41721D01C8503EA007D0AB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D41721D01C8503EA007D0AB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Dunjun/main.cpp; sourceTree = "<group>"; };
+		D4A8AE491C871AA3007998BA /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,11 @@
 		D41721C41C8503E9007D0AB9 = {
 			isa = PBXGroup;
 			children = (
-				D41721CF1C8503EA007D0AB9 /* Dunjun */,
+				D41721DD1C8505AF007D0AB9 /* bin */,
+				D41721DC1C85059C007D0AB9 /* data */,
+				D41721DB1C850584007D0AB9 /* external */,
+				D41721DA1C850577007D0AB9 /* src */,
+				D41721D71C8504E8007D0AB9 /* include */,
 				D41721CE1C8503EA007D0AB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +59,49 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D41721CF1C8503EA007D0AB9 /* Dunjun */ = {
+		D41721D71C8504E8007D0AB9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D4A8AE481C871A3A007998BA /* Dunjun */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		D41721DA1C850577007D0AB9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		D41721DB1C850584007D0AB9 /* external */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		D41721DC1C85059C007D0AB9 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		D41721DD1C8505AF007D0AB9 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+		D4A8AE481C871A3A007998BA /* Dunjun */ = {
 			isa = PBXGroup;
 			children = (
 				D41721D01C8503EA007D0AB9 /* main.cpp */,
+				D4A8AE491C871AA3007998BA /* Common.h */,
 			);
-			path = Dunjun;
+			name = Dunjun;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +279,7 @@
 				D41721D61C8503EA007D0AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
